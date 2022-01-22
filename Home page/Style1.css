@@ -1,0 +1,78 @@
+*{
+margin: 0;
+    padding: 0;
+}
+*header{
+    height: 100vh;
+    background-color: red;
+}
+.navbar-style{
+    box-shadow: 0 5px 10px #efefef;
+}
+.logo{
+    height: 48px;
+    padding: 20px 20px;
+}
+.icon-bar{
+    background: darkgreen;
+}
+li a{
+    color: TAN;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a.btn{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+a.btn-first{
+  background-color:saddlebrown;
+    color:white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+a.btn:hover{
+    background: red;
+    border: none;
+    color: white;
+    box-shadow: 5px 5px 10px #999;
+    transition: 0.3s;
+}
+.backgroundimg{
+    background-image: bl.jpg
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+.img-area{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    letter-spacing: 5px;
+  }
+  button{
+    margin: 10px 5px;
+    width: 250px;
+    padding: 15px;
+    border-radius: 15px;
+    background: transparent;
+    border: 1px solid saddlebrown;
+    color: red;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    margin-left:10px;  }
+  button:hover{
+    background:red;
+    border: none;
+    color: white;
+    box-shadow: 5px 5px 10px #999;
+    transition: 0.3s;
+}
